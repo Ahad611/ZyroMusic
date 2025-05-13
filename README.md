@@ -10,7 +10,7 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </p>
 
-<h1 align="center"><b>𝗕𝗔𝗕𝗬 𝗟𝗢𝗕 𝗬𝗢𝗨 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧</b></h1>
+<h1 align="center"><b>𝗧𝗔𝗥𝗔 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧</b></h1>
 
 <p align="center">
   <a href="https://t.me/Fumked">
@@ -22,7 +22,7 @@
 <h3 align="center">🚀 ᴅᴇᴘʟᴏʏ 𝗢𝗡 𝗛𝗘𝗥𝗢𝗞𝗨 🚀</h3>
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/karmaxexclusive/ZyroMusic">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/karmaxexclusive/TaraVibesBot">
     <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-blue?style=for-the-badge&logo=Heroku" width="220" height="38.45"/>
   </a>
 </p>
