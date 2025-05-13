@@ -6,11 +6,11 @@
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-  <img src="https://readme-typing-svg.herokuapp.com?color=FF0085&width=620&lines=🇮🇳+𝗣𝗢𝗪𝗘𝗥𝗘𝗗+𝗕𝗬+𝗞𝗔𝗥𝗠𝗔+𝗕𝗛𝗔𝗜+🇮🇳">
+  <img src="https://readme-typing-svg.herokuapp.com?color=FF0085&width=620&lines=🇮🇳+𝗣𝗢𝗪𝗘𝗥𝗘𝗗+𝗕𝗬+𝗞𝗔𝗥𝗠𝗔+𝗕𝗛𝗔𝗜𝗬𝗔+𝗝𝗜+🇮🇳">
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </p>
 
-<h1 align="center"><b>𝗧𝗔𝗥𝗔 𝗩𝗜𝗕𝗘𝗦 𝗕𝗢𝗧</b></h1>
+<h1 align="center"><b>𝗕𝗔𝗕𝗬 𝗟𝗢𝗕 𝗬𝗢𝗨 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧</b></h1>
 
 <p align="center">
   <a href="https://t.me/Fumked">
@@ -46,4 +46,4 @@
 
 ### This is a Public **Music Management Bot** made by:  
 - [Karma Bhai](https://t.me/Fumked)  
-- Exclusive Bhai
+- [Exclusive Bhai](https://t.me/Abt_Exclusive) 
