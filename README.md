@@ -10,11 +10,11 @@
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 </p>
 
-<h1 align="center"><b>𝗧𝗔𝗥𝗔 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧</b></h1>
+<h1 align="center"><b>𝗧𝗔𝗥𝗔 𝗩𝗜𝗕𝗘𝗦 𝗕𝗢𝗧</b></h1>
 
 <p align="center">
   <a href="https://t.me/Fumked">
-    <img src="https://graph.org/file/738cbb41535bd0dc766c7-d637ab65d9878a7114.jpg" width="400">
+    <img src="https://files.catbox.moe/455o3m.jpg" width="400">
   </a>
 </p>
 
