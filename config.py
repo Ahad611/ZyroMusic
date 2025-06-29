@@ -16,7 +16,7 @@ EVAL = list(map(int, getenv("EVAL", "0000000 0000000").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "")
+BOT_USERNAME = getenv("BOT_USERNAME" , "EvilAddiction_bot")
 # --------------------------------------------------------
 
 #---------------------------------------------------------------
@@ -134,7 +134,7 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/ghaqbv.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/d62yml.mp4"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/ghaqbv.jpg"
