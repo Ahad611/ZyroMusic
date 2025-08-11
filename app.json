@@ -1,8 +1,8 @@
 {
-    "name": "Baby Lob You Music",
-    "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://graph.org/file/1644b1ba1744f2835b8b0-5ab71243b13bb0845a.jpg",
-    "keywords": [
+  "name": "IVANxMUSIC",
+  "description": "A Telegram music bot built with Pyrogram to play music in voice chats.",
+  "repository": "https://github.com/Ahad566677/ZyroMusic",
+  "keywords": [
     "python3",
     "telegram",
     "bot",
@@ -10,59 +10,54 @@
     "MusicBot",
     "telegram-bot",
     "pyrogram"
-    ],
-    "env": {
-      "API_ID": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "28667204",
-        "required": true
-      },
-      "API_HASH": {
-        "description": "Get this value from https://my.telegram.org",
-        "value": "638bf54f32d655cbb53d37fd32d9fe87",
-        "required": true
-      },
-      "BOT_TOKEN": {
-        "description": "A Bot's token from Botfather",
-        "value": "",
-        "required": true
-      },
-      "MONGO_DB_URI": {
-        "description": "Get a mongodb url from https://cloud.mongodb.com.",
-        "value": "mongodb+srv://Alisha:Alisha123@cluster0.yqcpftw.mongodb.net/?retryWrites=true&w=majority",
-        "required": true
-      },
-      "OWNER_ID": {
-        "description": "The user id of user whom you would like to add as OWNER.",
-        "value": "",
-        "required": true
-      },
-      "STRING_SESSION": {
-        "description": "A Pyrogram v2 String Session from @STRINGSEASO_NBOT on Telegram.",
-        "value": "",
-        "required": true
-      },
-      "DB_NAME": {
-        "description": "Your DB_NAME",
-        "value": "none",
-        "required": false
-      },
-      "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
-        "value": "-1002382779323",
-        "required": true
-      }
+  ],
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID from https://my.telegram.org/apps",
+      "required": true,
+      "value": "22657083"
     },
-    "buildpacks": [
-          {
-              "url": "heroku/python"
-          },
-          {
-              "url": "heroku/nodejs"
-          },
-          {
-              "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-          }
-      ],
-      "stack": "container"
-  }
+    "API_HASH": {
+      "description": "Your Telegram API Hash from https://my.telegram.org/apps",
+      "required": true,
+      "value": "d6186691704bd901bdab275ceaab88f3"
+    },
+    "BOT_TOKEN": {
+      "description": "Bot token from @BotFather",
+      "required": true,
+      "value": ""
+    },
+    "MONGO_DB_URI": {
+      "description": "MongoDB connection URI",
+      "required": true,
+      "value": "mongodb+srv://ahad0181888:ahad0181888@cluster0.f9casz0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    },
+    "OWNER_ID": {
+      "description": "Your Telegram user ID (for bot owner access)",
+      "required": true,
+      "value": "8086485131"
+    },
+    "STRING_SESSION": {
+      "description": "Pyrogram string session for assistant account",
+      "required": true,
+      "value": ""
+    },
+    "DB_NAME": {
+      "description": "Database name to use in MongoDB",
+      "required": true,
+      "value": "Ahad"
+    },
+    "LOGGER_ID": {
+      "description": "Chat ID for logging bot activities",
+      "required": true,
+      "value": "-1002791009509"
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "heroku-20"
+}
