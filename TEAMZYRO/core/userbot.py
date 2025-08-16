@@ -24,7 +24,7 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="BrandrdXMusic1",
+            name="Zyrox1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -33,7 +33,7 @@ class Userbot(Client):
         )
 
         self.two = Client(
-            name="BrandrdXMusic2",
+            name="Zyrox2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -41,7 +41,7 @@ class Userbot(Client):
             ipv6=False,
         )
         self.three = Client(
-            name="BrandrdXMusic3",
+            name="Zyrox3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -49,7 +49,7 @@ class Userbot(Client):
             ipv6=False,
         )
         self.four = Client(
-            name="BrandrdXMusic4",
+            name="Zyrox4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -57,7 +57,7 @@ class Userbot(Client):
             ipv6=False,
         )
         self.five = Client(
-            name="BrandrdXMusic5",
+            name="Zyrox5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -71,10 +71,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("MUSIC_GC_BY")
+                await self.one.join_chat("IvanxNisha")
+                await self.one.join_chat("updatesxIvan")
+                await self.one.join_chat("Botsxupdate")
 
             except:
                 pass
@@ -101,10 +101,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("MUSIC_GC_BY")
+                await self.one.join_chat("IvanxNisha")
+                await self.one.join_chat("updatesxIvan")
+                await self.one.join_chat("Botsxupdate")
             except:
                 pass
             assistants.append(2)
@@ -125,10 +125,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("MUSIC_GC_BY")
+                await self.one.join_chat("IvanxNisha")
+                await self.one.join_chat("updatesxIvan")
+                await self.one.join_chat("Botsxupdate")
             except:
                 pass
             assistants.append(3)
@@ -148,10 +148,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("MUSIC_GC_BY")
+                await self.one.join_chat("IvanxNisha")
+                await self.one.join_chat("updatesxIvan")
+                await self.one.join_chat("Botsxupdate")
             except:
                 pass
             assistants.append(4)
@@ -171,10 +171,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.one.join_chat("THExNIGHTxCLUB")
-                await self.one.join_chat("learning_bots")
-                await self.one.join_chat("Want_To_Know_Me")
-                await self.one.join_chat("learningbots79")
+                await self.one.join_chat("MUSIC_GC_BY")
+                await self.one.join_chat("IvanxNisha")
+                await self.one.join_chat("updatesxIvan")
+                await self.one.join_chat("Botsxupdate")
             except:
                 pass
             assistants.append(5)
