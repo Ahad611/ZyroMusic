@@ -51,18 +51,28 @@
       "description": "Chat ID for logging bot activities",
       "required": true,
       "value": "-1002791009509"
-         }
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        },
-        {
-            "url": "heroku/nodejs"
-        },
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
-        }
-    ],
-    "stack": "container"
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku API key (get it from https://dashboard.heroku.com/account)",
+      "required": false,
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku app name (from https://dashboard.heroku.com/apps)",
+      "required": false,
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "stack": "container"
 }
