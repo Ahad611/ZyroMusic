@@ -9,20 +9,20 @@ from pyrogram import filters
 load_dotenv()
 # ------------------------------------
 # -----------------------------------------------------
-API_ID = getenv("API_ID", "")
-API_HASH = getenv("API_HASH", "")
+API_ID = getenv("API_ID", "29481920")
+API_HASH = getenv("API_HASH", "f700ddb0930acfab095b00911a2e6f3a")
 
 EVAL = list(map(int, getenv("EVAL", "0000000 0000000").split()))
 # ------------------------------------------------------
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "EvilAddiction_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "NishaxMusic_bot")
 # --------------------------------------------------------
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
-DB_NAME = getenv("DB_NAME", "Zyro")
+DB_NAME = getenv("DB_NAME", "Ahad")
 #---------------------------------------------------------------
 # ----------------------------------------------------------------
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
@@ -39,7 +39,7 @@ OWNER_ID = int(getenv("OWNER_ID", 7710841624))
 # ----------------------------------------------------------------
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME","Ivan")
 # ----------------------------------------------------------------
-HEROKU_API_KEY = getenv("HEROKU_API_KEY","HRKU-AApD2ZG7a151gNkH6-WUTcHUYjUnxQRhGM3rCgJbmMBw_wvruQGJTR0f")
+HEROKU_API_KEY = getenv("HEROKU_API_KEY","HRKU-AAYJPsy5d-9hm-F3qEQ_aUHUYjUnxQRhGM3rCgJbmMBw_____wd9CoymtaHg")
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
 # ----------------------------------------------------------------
@@ -59,8 +59,8 @@ GIT_TOKEN = getenv(
 
 # ------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Fine_N_Ok")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/My_Logs_Gc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Botsxupdate")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/IvanxNisha")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
@@ -107,7 +107,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 # ------------------------------------
 # ------------------------------------
 # ------------------------------------
-STRING1 = getenv("STRING_SESSION", "")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
